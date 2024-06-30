@@ -1,0 +1,90 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background: #333;
+    color: white;
+    padding: 1rem 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+section {
+    padding: 2rem 1rem;
+    text-align: center;
+}
+
+.home-section {
+    background: #f4f4f4;
+}
+
+.about-section {
+    background: #e2e2e2;
+}
+
+.skills-section {
+    background: #d4d4d4;
+}
+
+.projects-section {
+    background: #c6c6c6;
+}
+
+.contact-section {
+    background: #b8b8b8;
+}
+
+.project {
+    margin: 1rem 0;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form label {
+    margin: 0.5rem 0 0.2rem 0;
+}
+
+form input, form textarea {
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    width: 80%;
+    max-width: 500px;
+}
+
+form button {
+    padding: 0.5rem 2rem;
+    background: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+}
